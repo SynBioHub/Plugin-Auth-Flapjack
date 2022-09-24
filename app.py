@@ -22,7 +22,7 @@ def login():
                     'username': {'type': 'text', 'description': 'This is the username for yoru account', 'options': [], 'default': [], 'restrictions': {}},
                     'password': {'type': 'password', 'description': 'This is your password', 'options': [], 'default': [], 'restrictions': {}}
                    }
-    token_params = {'access':"access", 'refresh':'refresh'}
+    token_params = {'access':'access', 'refresh':'refresh'}
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~ END SECTION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     resp['login_url'] = login_url
